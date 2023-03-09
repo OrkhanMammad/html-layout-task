@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    padding: 0 15rem;
+}
+a{
+    text-decoration: none;
+}
+#nav_bar{
+    width: 100%;
+    position: fixed;
+    padding: 1rem 0;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .logo{
+    width: 13%;
+}
+.nav .logo img{
+    width: 100%;
+}
+.nav .menu a{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px 10px;
+}
+.nav .btn a{
+    color: #252525;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: #ffff;
+    border-radius: 30px;
+}
+.all_page_1{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_slide1.jpg?id=22308);
+    
+}
+.page_1{
+    display: flex;
+    justify-content: left;
+    padding-top: 8rem;
+    align-items: center;
+}
+.page_1 .left{
+    color: #ffff;
+    width: 50%;
+}
+.page_1 .left h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.page_1 .left p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 3rem;
+}
+.page_1 .left a{
+    color: #ffff;
+    background-color: #006ba6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-top: 5rem;
+}
+.page_1 .right{
+    width: 50%;
+}
+.page_1 .right img{
+    width: 100%;
+}
+.page_2{
+    text-align: center;
+    width: 100%;
+    margin-top: 7rem;
+}
+.page_2 h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #252525;
+    margin-bottom: 30px;
+}
+.page_2 .gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.page_2 .gallery .box{
+    width: 30%;
+    margin-bottom: 1rem;
+}
+.page_2 .gallery .box img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    vertical-align: bottom;
+}
+.page_2 .bottom{
+    background-color: #f2f2f2;
+    border-radius: 0 0 10px 10px;
+    text-align: left;
+}
+.page_2 .bottom a{
+    margin-left: 20px;
+    color: #111111;
+    font-size: 18px;
+}
+.page_2 .bottom .b_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 10px 0;
+    padding-bottom: 1rem;
+}
+.p2_btn{
+    font-size: 18px;
+    color: #ffff;
+    background-color: #006ba6;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+#all_page_3{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_banner.jpg?id=22303);
+    margin-top: 5rem;
+}
+.page_3{
+    text-align: center;
+    color: #ffff;
+    padding: 10rem 0;
+}
+.page_3,.page_4 h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.page_3 p{
+    font-size: 16px;
+    margin-bottom: 4rem;
+}
+.page_3 a{
+    color: #006ba6;
+    background-color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 20px 40px;
+}
+.page_4{
+    text-align: center;
+    width: 100%;
+}
+.page_4 .gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.page_4 .box{
+    width: 30%;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+.page_4 .box img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 10px 10px 0 0;
+}
+.page_4 .box .bottom{
+    background-color: #f2f2f2;
+    padding: 20px 10px;
+    border-radius: 0 0 10px 10px;
+}
+#all_page_5{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/subscribe-bg.jpg?id=22100);
+    text-align: center;
+}
+.page_5 input{
+    border-radius: 35px;
+    height: 70px;
+    font-size: 15px;
+    border: 0;
+    float: left;
+    padding: 25px;
+    width: 50%;
+    margin-left: 17rem;
+    font-weight: 400;
+}
+.page_6{
+    color: #111111;
+}
+.page_6 .gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.page_6 .gallery .box{
+    width: calc(100%/6);
+    padding: 10px;
+}
+.page_6 .gallery .box img{
+    width: 100%;
+}
+.page_7{
+    display: flex;
+    justify-content: space-between;
+}
+.page_7 .left{
+    width: 50%;
+}
+.page_7 .right{
+    width: 50%;
+}
+.page_7 .right img{
+    width: 100%;
+}
+.page_7 .left .box{
+    width: 50%;
+}
+.page_7 .left h2{
+    font-size: 36px;
+    color: #3D404F;
+}
+.page_7 .left .box h3{
+    color: #434959;
+    font-size: 24px;
+    margin: 12px 0 10px;
+}
+.page_7 .left .box p{
+    color: #777777;
+    font-size: 15px;
+}
+.page_7 .left .box img{
+    width: 30%;
+    margin: 20px 0;
+}
+.page_7 .bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.page_8{
+    margin-top: 5rem;
+    text-align: center;
+}
+.page_8 .gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.page_8 .gallery .box{
+    width: 32%;
+    align-items: center;
+
+}
+.page_8 .gallery .box img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.page_8 .gallery .box .bottom{
+    text-align: left;
+    padding-left: 20px;
+}
+.page_8 h2{
+    font-size: 36px;
+    color: #222222;
+    margin-bottom: 10px;
+}
+.page_8 p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #777777;
+    margin-bottom: 60px;
+}
+.page_8 .box .bottom .txt_a{
+    color: #3D404F;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.page_8 .p_8_a{
+    font-size: 16px;
+    color: #223441;
+    font-weight: bold;
+}
+footer{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/09/Clinika-footer2-scaled.jpg);
+    padding: 25rem 0 0;
+}
+footer input{
+    height: 45px;
+    font-size: 15px;
+    border: 0;
+    float: left;
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: 400;
+    outline: 0;
+    color: #666;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+footer .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .top .left{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+footer .top .left .box{
+    width: calc(100%/3);
+}
+footer .top .left .box a{
+    display: block;
+    color: #ffff;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+footer .top .left .box h3{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer .top .right{
+    text-align: left;
+    color: #ffff;
+}
+footer .top .right h3{
+ font-size: 20px;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+footer .top .right p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+footer .top .right i{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.inline{
+    display: inline;
+}
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+footer .bottom .left{
+    width: 20%;
+}
+footer .bottom .right{
+    width: 50%;
+    text-align: right;
+    color: #ffff;
+}
+footer .bottom .left img{
+    width: 70%;
+}
